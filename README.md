@@ -16,3 +16,11 @@ Open-Source project from Voice First
 3. Do The Simplest Thing That Could Possibly Work (DTSTTCPW)
 4. Refactor
 5. Repeat
+
+# Today's Quest
+
+1. "Okay Google/Alexa, ask smart lock to list my locks."
+2. "Okay Google/Alexa, ask smart lock to check the status of my front door."
+3. "Okay Google/Alexa, ask smart lock to lock my front door."
+4. "Okay Google/Alexa, ask smart lock to unlock my front door."
+5. "Okay Google/Alexa, ask smart lock to add a new lock."
