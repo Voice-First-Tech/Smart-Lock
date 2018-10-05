@@ -1,0 +1,101 @@
+[
+	{
+		"userId": "ABwppHE9i0O0ysjd40Re3Q5ZqH6_icm-pbI8e6Q0kg0XL7Q1aphiVYWnzkqOc4WrgCf5H2mebLtoBU7jxOE",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-05T03:22:30.265Z",
+				"lastUsedAt": "2018-10-05T03:35:14.116Z",
+				"sessionsCount": 11
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2018-10-05T03:35:14.117Z"
+						},
+						"response": {
+							"speech": "I can help you control Smart Locks. Say lock the front door or unlock my front door.",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "amzn1.account.AM3B00000000000000000000000",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-05T03:22:30.314Z",
+				"lastUsedAt": "2018-10-05T03:35:14.134Z",
+				"sessionsCount": 11
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2015-05-13T12:34:56Z"
+						},
+						"response": {
+							"speech": "I can help you control Smart Locks. Say lock the front door or unlock my front door.",
+							"reprompt": "Say lock the front door or unlock my front door.",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "ABwppHGcCA8wnabkGnOqYmvfR0r3CWO0Tt9acI0s2qyUfzc0NrDADRR4hNJYbJ2m-_GpG0Qm-2GI4WS1_fKTEQ",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-05T03:42:00.394Z",
+				"lastUsedAt": "2018-10-05T03:42:00.395Z",
+				"sessionsCount": 1
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2018-10-05T03:42:00.395Z"
+						},
+						"response": {
+							"speech": "I can help you control Smart Locks. Say lock the front door or unlock my front door.",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "amzn1.ask.account.AHIZJYHZ5FNX4W364V3QO6PEC3YGEKWENVSCXOUHVRLH4V3GX5QEX75CYJ7QXCM7KHS5WBJXVW52ONCKO5SMFB3GFBWZYRWNAK3UK3TEBIU2UP4S3BQUTAEZRGEGNYPVGUEMXGZ65QGSGK2O3WKPKDRY63FBKMQ33EABRNYGXYPHFSR4RUJVGRR7YHAHUR5AR2YS6NJJJUE4K7I",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-05T03:46:41.887Z",
+				"lastUsedAt": "2018-10-05T03:51:20.304Z",
+				"sessionsCount": 1
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "END",
+							"timestamp": "2018-10-05T03:51:19Z",
+							"state": "FirstState"
+						},
+						"response": {}
+					}
+				]
+			}
+		}
+	}
+]
