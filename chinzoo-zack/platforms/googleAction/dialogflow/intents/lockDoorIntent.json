@@ -1,5 +1,5 @@
 {
-	"name": "HelloWorldIntent",
+	"name": "lockDoorIntent",
 	"auto": true,
 	"webhookUsed": true
 }

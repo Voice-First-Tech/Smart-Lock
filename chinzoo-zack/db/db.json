@@ -4,19 +4,19 @@
 		"userData": {
 			"data": {},
 			"metaData": {
-				"createdAt": "2018-10-05T23:24:49.095Z",
-				"lastUsedAt": "2018-10-06T00:11:15.217Z",
-				"sessionsCount": 7
+				"createdAt": "2018-10-06T01:57:29.169Z",
+				"lastUsedAt": "2018-10-06T01:57:29.170Z"
 			},
 			"context": {
 				"prev": [
 					{
 						"request": {
-							"intent": "LAUNCH",
-							"timestamp": "2018-10-06T00:11:15.218Z"
+							"intent": "lockDoorIntent",
+							"timestamp": "2018-10-06T01:57:29.170Z",
+							"state": "FirstState"
 						},
 						"response": {
-							"speech": "Welcome to the Smart Lock app. Say lock my front door or unlock my front door.",
+							"speech": "Your door is locked.",
 							"state": "FirstState"
 						}
 					}
@@ -29,20 +29,20 @@
 		"userData": {
 			"data": {},
 			"metaData": {
-				"createdAt": "2018-10-05T23:24:49.121Z",
-				"lastUsedAt": "2018-10-06T00:11:27.682Z",
-				"sessionsCount": 8
+				"createdAt": "2018-10-06T01:54:47.497Z",
+				"lastUsedAt": "2018-10-06T01:57:29.186Z",
+				"sessionsCount": 2
 			},
 			"context": {
 				"prev": [
 					{
 						"request": {
-							"intent": "LAUNCH",
-							"timestamp": "2015-05-13T12:34:56Z"
+							"intent": "lockDoorIntent",
+							"timestamp": "2015-05-13T12:34:56Z",
+							"state": "FirstState"
 						},
 						"response": {
-							"speech": "Welcome to the Smart Lock app. Say lock my front door or unlock my front door.",
-							"reprompt": "Say lock my front door or unlock my front door.",
+							"speech": "Your door is locked.",
 							"state": "FirstState"
 						}
 					}

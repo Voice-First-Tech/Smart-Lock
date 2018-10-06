@@ -2,7 +2,7 @@
 	{
 		"data": [
 			{
-				"text": "hello",
+				"text": "lockd the door",
 				"userDefined": false
 			}
 		],
@@ -12,17 +12,7 @@
 	{
 		"data": [
 			{
-				"text": "say hello",
-				"userDefined": false
-			}
-		],
-		"isTemplate": false,
-		"count": 0
-	},
-	{
-		"data": [
-			{
-				"text": "say hello world",
+				"text": "lock door",
 				"userDefined": false
 			}
 		],
