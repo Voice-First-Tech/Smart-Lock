@@ -1,0 +1,134 @@
+[
+	{
+		"userId": "ABwppHE9i0O0ysjd40Re3Q5ZqH6_icm-pbI8e6Q0kg0XL7Q1aphiVYWnzkqOc4WrgCf5H2mebLtoBU7jxOE",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-06T03:26:13.279Z",
+				"lastUsedAt": "2018-10-06T03:55:51.324Z",
+				"sessionsCount": 11
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2018-10-06T03:55:51.325Z"
+						},
+						"response": {
+							"speech": "I can help you control smartlocks. Say lock the front door or unlock my front door",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "amzn1.account.AM3B00000000000000000000000",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-06T03:26:13.353Z",
+				"lastUsedAt": "2018-10-06T03:55:51.351Z",
+				"sessionsCount": 11
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2015-05-13T12:34:56Z"
+						},
+						"response": {
+							"speech": "I can help you control smartlocks. Say lock the front door or unlock my front door",
+							"reprompt": "Say lock the front door or unlock my front door",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "jovo-debugger-user",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-06T04:15:43.617Z",
+				"lastUsedAt": "2018-10-06T04:15:55.413Z",
+				"sessionsCount": 1
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "MyNameIsIntent",
+							"timestamp": "2018-10-06T04:15:55.403Z",
+							"state": "FirstState",
+							"inputs": {
+								"name": {
+									"name": "name",
+									"value": ""
+								}
+							}
+						},
+						"response": {
+							"speech": "Hey undefined, nice to meet you!"
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "ABwppHFST9Q4tlnelKDUcjA5BJLonEc1hGL_FRoekOGhs38F23sJ0tfgYoovSUFawA7Aq0fJ-c9XYSE_oyNYCdbCLGH3_w",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-06T04:24:56.440Z",
+				"lastUsedAt": "2018-10-06T04:24:56.446Z",
+				"sessionsCount": 1
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2018-10-06T04:24:56.447Z"
+						},
+						"response": {
+							"speech": "I can help you control smartlocks. Say lock the front door or unlock my front door",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "ABwppHGL9xxuuvyAVlcXPwANqJgf8q6HptADHtVTG-aTp8YGUfV4mm3nFCU3IX4WHa5dFTqN2nyOKP6gdgD8pZo",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-06T04:34:38.613Z",
+				"lastUsedAt": "2018-10-06T04:40:12.376Z",
+				"sessionsCount": 3
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2018-10-06T04:40:12.376Z"
+						},
+						"response": {
+							"speech": "I can help you control smartlocks. Say lock the front door or unlock my front door",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	}
+]
