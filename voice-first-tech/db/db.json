@@ -4,16 +4,26 @@
 		"userData": {
 			"data": {},
 			"metaData": {
+<<<<<<< HEAD
 				"createdAt": "2018-10-06T00:10:37.050Z",
 				"lastUsedAt": "2018-10-06T00:18:53.301Z",
 				"sessionsCount": 23
+=======
+				"createdAt": "2018-10-05T04:07:20.064Z",
+				"lastUsedAt": "2018-10-05T23:24:07.977Z",
+				"sessionsCount": 6
+>>>>>>> 4f8750b9314e2afb4909c2526bb83edc95cfdce2
 			},
 			"context": {
 				"prev": [
 					{
 						"request": {
 							"intent": "lockDoorIntent",
+<<<<<<< HEAD
 							"timestamp": "2018-10-06T00:18:53.301Z",
+=======
+							"timestamp": "2018-10-05T23:24:07.977Z",
+>>>>>>> 4f8750b9314e2afb4909c2526bb83edc95cfdce2
 							"state": "FirstState"
 						},
 						"response": {
@@ -30,9 +40,15 @@
 		"userData": {
 			"data": {},
 			"metaData": {
+<<<<<<< HEAD
 				"createdAt": "2018-10-06T00:18:34.937Z",
 				"lastUsedAt": "2018-10-06T00:18:53.309Z",
 				"sessionsCount": 5
+=======
+				"createdAt": "2018-10-05T03:58:28.326Z",
+				"lastUsedAt": "2018-10-05T23:24:07.995Z",
+				"sessionsCount": 16
+>>>>>>> 4f8750b9314e2afb4909c2526bb83edc95cfdce2
 			},
 			"context": {
 				"prev": [
