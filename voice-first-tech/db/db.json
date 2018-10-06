@@ -5,15 +5,15 @@
 			"data": {},
 			"metaData": {
 				"createdAt": "2018-10-05T04:07:20.064Z",
-				"lastUsedAt": "2018-10-05T04:09:03.490Z",
-				"sessionsCount": 2
+				"lastUsedAt": "2018-10-05T23:24:07.977Z",
+				"sessionsCount": 6
 			},
 			"context": {
 				"prev": [
 					{
 						"request": {
 							"intent": "lockDoorIntent",
-							"timestamp": "2018-10-05T04:09:03.490Z",
+							"timestamp": "2018-10-05T23:24:07.977Z",
 							"state": "FirstState"
 						},
 						"response": {
@@ -31,8 +31,8 @@
 			"data": {},
 			"metaData": {
 				"createdAt": "2018-10-05T03:58:28.326Z",
-				"lastUsedAt": "2018-10-05T04:09:03.508Z",
-				"sessionsCount": 12
+				"lastUsedAt": "2018-10-05T23:24:07.995Z",
+				"sessionsCount": 16
 			},
 			"context": {
 				"prev": [
