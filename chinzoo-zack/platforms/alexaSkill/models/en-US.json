@@ -5,11 +5,10 @@
 			"types": [],
 			"intents": [
 				{
-					"name": "HelloWorldIntent",
+					"name": "lockDoorIntent",
 					"samples": [
-						"hello",
-						"say hello",
-						"say hello world"
+						"lockd the door",
+						"lock door"
 					]
 				},
 				{

@@ -28,8 +28,8 @@ app.setHandler({
     },
 
     'FirstState': {
-        'MyNameIsIntent': function(name) {
-            this.toStatelessIntent('MyNameIsIntent', name);
+        'lockDoorIntent': function(name) {
+            this.tell("Your door is locked.");
         },
 
         // // Test fails if this is commented out

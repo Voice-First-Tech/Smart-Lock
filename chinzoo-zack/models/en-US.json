@@ -2,11 +2,13 @@
 	"invocation": "smart lock",
 	"intents": [
 		{
-			"name": "HelloWorldIntent",
+			"name": "lockDoorIntent",
 			"phrases": [
-				"hello",
-				"say hello",
-				"say hello world"
+				"lockd the door",
+				"lock my door"
+				"lock"
+				"lock door"
+				"lock all the doors"
 			]
 		},
 		{
