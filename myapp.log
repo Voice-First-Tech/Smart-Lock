@@ -1,0 +1,10 @@
+module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '/home/vipermark7/Smart-Lock/myapp.js'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3
