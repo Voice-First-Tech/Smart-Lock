@@ -1,6 +1,7 @@
 # Smart-Lock
 
-Open-Source project from Voice First
+Open-Source project from Voice First. This branch features a few files related to a tutorial that can be found at [this Google doc](https://docs.google.com/document/d/1G6U5ZlO0nQf8sqXcgPgW8X3y8WfUQzcO7xj3-1NVKYs/edit?usp=sharing) 
+
 
 # Get Started
 
