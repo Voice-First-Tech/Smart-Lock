@@ -1,34 +1,22 @@
 [
 	{
-		"userId": "ABwppHE9i0O0ysjd40Re3Q5ZqH6_icm-pbI8e6Q0kg0XL7Q1aphiVYWnzkqOc4WrgCf5H2mebLtoBU7jxOE",
+		"userId": "ABwppHGcCA8wnabkGnOqYmvfR0r3CWO0Tt9acI0s2qyUfzc0NrDADRR4hNJYbJ2m-_GpG0Qm-2GI4WS1_fKTEQ",
 		"userData": {
 			"data": {},
 			"metaData": {
-<<<<<<< HEAD
-				"createdAt": "2018-10-06T00:10:37.050Z",
-				"lastUsedAt": "2018-10-06T00:18:53.301Z",
+				"createdAt": "2018-10-17T22:05:52.589Z",
+				"lastUsedAt": "2018-10-17T22:27:35.815Z",
 				"sessionsCount": 23
-=======
-				"createdAt": "2018-10-05T04:07:20.064Z",
-				"lastUsedAt": "2018-10-05T23:24:07.977Z",
-				"sessionsCount": 6
->>>>>>> 4f8750b9314e2afb4909c2526bb83edc95cfdce2
 			},
 			"context": {
 				"prev": [
 					{
 						"request": {
-							"intent": "lockDoorIntent",
-<<<<<<< HEAD
-							"timestamp": "2018-10-06T00:18:53.301Z",
-=======
-							"timestamp": "2018-10-05T23:24:07.977Z",
->>>>>>> 4f8750b9314e2afb4909c2526bb83edc95cfdce2
-							"state": "FirstState"
+							"intent": "ON_SIGN_IN",
+							"timestamp": "2018-10-17T22:27:35.815Z"
 						},
 						"response": {
-							"speech": "Your front door is now locked.",
-							"state": "FirstState"
+							"speech": "Sign in cancelled. Please try again by saying okay google, launch smart lock"
 						}
 					}
 				]
@@ -36,31 +24,45 @@
 		}
 	},
 	{
-		"userId": "amzn1.account.AM3B00000000000000000000000",
+		"userId": "ABwppHGv_hYA9UM3rK1DA9R33GhyRU3stoYMDvKT4RChJHtAIi270PPxE3dRs7Wg_2DSBYCnpLSId75NooPzZQ",
 		"userData": {
 			"data": {},
 			"metaData": {
-<<<<<<< HEAD
-				"createdAt": "2018-10-06T00:18:34.937Z",
-				"lastUsedAt": "2018-10-06T00:18:53.309Z",
-				"sessionsCount": 5
-=======
-				"createdAt": "2018-10-05T03:58:28.326Z",
-				"lastUsedAt": "2018-10-05T23:24:07.995Z",
-				"sessionsCount": 16
->>>>>>> 4f8750b9314e2afb4909c2526bb83edc95cfdce2
+				"createdAt": "2018-10-17T22:09:47.070Z",
+				"lastUsedAt": "2018-10-17T22:27:49.285Z",
+				"sessionsCount": 17
 			},
 			"context": {
 				"prev": [
 					{
 						"request": {
-							"intent": "lockDoorIntent",
-							"timestamp": "2015-05-13T12:34:56Z",
-							"state": "FirstState"
+							"intent": "LAUNCH",
+							"timestamp": "2018-10-17T22:27:49.285Z"
+						},
+						"response": {}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "amzn1.ask.account.AHIZJYHZ5FNX4W364V3QO6PEC3YGEKWENVSCXOUHVRLH4V3GX5QEX75CYJ7QXCM7KHS5WBJXVW52ONCKO5SMFB3GFBWZYRWNAK3UK3TEBIU2UP4S3BQUTAEZRGEGNYPVGUEMXGZ65QGSGK2O3WKPKDRY63FBKMQ33EABRNYGXYPHFSR4RUJVGRR7YHAHUR5AR2YS6NJJJUE4K7I",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-17T22:37:45.723Z",
+				"lastUsedAt": "2018-10-17T22:51:18.160Z",
+				"sessionsCount": 5
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2018-10-17T22:51:17Z"
 						},
 						"response": {
-							"speech": "Your front door is now locked.",
-							"state": "FirstState"
+							"speech": "Please link your account by opening the Alexa App on your mobile phone"
 						}
 					}
 				]
