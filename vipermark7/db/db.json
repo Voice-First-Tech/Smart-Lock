@@ -1,0 +1,53 @@
+[
+	{
+		"userId": "ABwppHE9i0O0ysjd40Re3Q5ZqH6_icm-pbI8e6Q0kg0XL7Q1aphiVYWnzkqOc4WrgCf5H2mebLtoBU7jxOE",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-19T23:15:24.862Z",
+				"lastUsedAt": "2018-10-20T00:48:44.769Z",
+				"sessionsCount": 10
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2018-10-20T00:48:44.770Z"
+						},
+						"response": {
+							"speech": "I can help you control Smart Locks. Say lock the front door or unlock the front door",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "amzn1.account.AM3B00000000000000000000000",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-10-19T23:15:24.987Z",
+				"lastUsedAt": "2018-10-20T00:48:44.843Z",
+				"sessionsCount": 10
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "LAUNCH",
+							"timestamp": "2015-05-13T12:34:56Z"
+						},
+						"response": {
+							"speech": "I can help you control Smart Locks. Say lock the front door or unlock the front door",
+							"reprompt": "Say lock the front door or unlock the front door",
+							"state": "FirstState"
+						}
+					}
+				]
+			}
+		}
+	}
+]
