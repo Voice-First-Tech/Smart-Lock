@@ -1,0 +1,29 @@
+{
+	"manifest": {
+		"publishingInformation": {
+			"locales": {
+				"en-US": {
+					"summary": "Sample Short Description",
+					"examplePhrases": [
+						"Alexa open hello world"
+					],
+					"name": "vipermark7",
+					"description": "Sample Full Description"
+				}
+			},
+			"isAvailableWorldwide": true,
+			"testingInstructions": "Sample Testing Instructions.",
+			"category": "EDUCATION_AND_REFERENCE",
+			"distributionCountries": []
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sslCertificateType": "Wildcard",
+					"uri": "https://webhook.jovo.cloud/7f244cde-c12c-406a-aa3d-48f56a1e8610"
+				}
+			}
+		},
+		"manifestVersion": "1.0"
+	}
+}

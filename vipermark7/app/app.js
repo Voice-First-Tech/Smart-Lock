@@ -19,13 +19,12 @@ const app = new App(config);
 
 app.setHandler({
     'LAUNCH': function() {
-	let response = this.speechBuilder()
-	    .addText("I can help you control Smart Locks. Say lock the front door or unlock the front door")
-	let reprompt = this.speechBuilder()
-	    .addText("Say lock the front door or unlock the front door")
+        let speech = this.speechBuilder()
+            .addText("I can help you control Smart Locks. Say lock the front door or unlock the front door")
+        let reprompt = this.speechBuilder()
+            .addText("Say lock the front door or unlock the front door")    
         this.followUpState('FirstState')
-        .ask("I can help you control Smart Locks. Say lock the front door or unlock the front door",
-            "Say lock the front door or unlock the front door");
+        .ask(speech, reprompt);
     },
 
 
