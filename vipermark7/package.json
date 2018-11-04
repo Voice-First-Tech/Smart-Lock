@@ -4,6 +4,7 @@
   "description": "Jovo voice app template with sample unit tests",
   "main": "index.js",
   "dependencies": {
+    "jovo-cli": "^1.2.10",
     "jovo-framework": "^1.4.12"
   },
   "devDependencies": {
