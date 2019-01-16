@@ -26,11 +26,9 @@ app.use(
 
 app.setHandler({
     LAUNCH() {
-        return this.toIntent('HelloWorldIntent');
-    },
-
-    HelloWorldIntent() {
-        this.ask('Hello World! What\'s your name?', 'Please tell me your name.');
+      let expextedLaunchPropmpt = "Welcoem to your smart lock. Would you like to lock your door? Check the status of your door? Or unlock your door?";
+      let expextedLaunchRepropmpt = "Please say lock, status or unlock my door."
+      this.ask(expextedLaunchPropmpt, expextedLaunchRepropmpt);
     },
 
     MyNameIsIntent() {
