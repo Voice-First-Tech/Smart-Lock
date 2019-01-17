@@ -20,14 +20,14 @@
 			"inputs": [
 				{
 					"name": "lockStatus",
-					"type": "lockStatus"
+					"type": "lockStatusType"
 				}
 			]
 		}
 	],
 	"inputTypes": [
 		{
-			"name": "lockStatus",
+			"name": "lockStatusType",
 			"dialogflow": {
 				"automatedExpansion": true
 			},
@@ -35,13 +35,35 @@
 				{
 					"value": "lock",
 					"synonyms": [
-						"arm"
+						"arm",
+						"close",
+						"lock it",
+						"secure",
+						"encrypt",
+						"locked",
+						"locking",
+						"safe",
+						"hide",
+						"close lock",
+						"prevent opening"
 					]
 				},
 				{
 					"value": "unlock",
 					"synonyms": [
-						"dissarm"
+						"dissarm",
+						"open",
+						"unlock it",
+						"unsecure",
+						"insecure",
+						"decrypt",
+						"unlocked",
+						"unlocking",
+						"unsafe",
+						"reveal",
+						"open lock",
+						"allow opening",
+						"allow open"
 					]
 				}
 			]
