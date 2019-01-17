@@ -10,20 +10,39 @@
 			]
 		},
 		{
-			"name": "MyNameIsIntent",
+			"name": "LockIntent",
 			"phrases": [
-				"{name}",
-				"my name is {name}",
-				"i am {name}",
-				"you can call me {name}"
+				"{lockStatus}",
+				"{lockStatus} the door",
+				"{lockStatus} a door",
+				"{lockStatus} my door"
 			],
 			"inputs": [
 				{
-					"name": "name",
-					"type": {
-						"alexa": "AMAZON.US_FIRST_NAME",
-						"dialogflow": "@sys.given-name"
-					}
+					"name": "lockStatus",
+					"type": "lockStatus"
+				}
+			]
+		}
+	],
+	"inputTypes": [
+		{
+			"name": "lockStatus",
+			"dialogflow": {
+				"automatedExpansion": true
+			},
+			"values": [
+				{
+					"value": "lock",
+					"synonyms": [
+						"arm"
+					]
+				},
+				{
+					"value": "unlock",
+					"synonyms": [
+						"dissarm"
+					]
 				}
 			]
 		}

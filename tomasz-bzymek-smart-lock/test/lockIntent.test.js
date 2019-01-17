@@ -24,7 +24,7 @@ for (const p of [new Alexa(), new GoogleAssistant()]) {
         test('should return UNLOCKED status at "LockIntent"', async () => {
             const conversation = testSuite.conversation();
 
-            const unlockRequest = await testSuite.requestBuilder.intent("LockIntent", {lockStatus: 'lock'});
+            const unlockRequest = await testSuite.requestBuilder.intent("LockIntent", {lockStatus: 'unlock'});
             const responseLockRequest = await conversation.send(unlockRequest);
             expect(
                 responseLockRequest.isTell(expextedUnlockPropmpt)
