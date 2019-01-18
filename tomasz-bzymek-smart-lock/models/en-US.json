@@ -1,0 +1,112 @@
+{
+	"invocation": "smart lock",
+	"intents": [
+		{
+			"name": "HelloWorldIntent",
+			"phrases": [
+				"hello",
+				"say hello",
+				"say hello world"
+			]
+		},
+		{
+			"name": "LockIntent",
+			"phrases": [
+				"{lockStatus}",
+				"{lockStatus} the door",
+				"{lockStatus} a door",
+				"{lockStatus} my door"
+			],
+			"inputs": [
+				{
+					"name": "lockStatus",
+					"type": "lockStatusType"
+				}
+			]
+		}
+	],
+	"inputTypes": [
+		{
+			"name": "lockStatusType",
+			"dialogflow": {
+				"automatedExpansion": true
+			},
+			"values": [
+				{
+					"value": "lock",
+					"synonyms": [
+						"arm",
+						"close",
+						"lock it",
+						"secure",
+						"encrypt",
+						"locked",
+						"locking",
+						"safe",
+						"hide",
+						"close lock",
+						"prevent opening"
+					]
+				},
+				{
+					"value": "unlock",
+					"synonyms": [
+						"dissarm",
+						"open",
+						"unlock it",
+						"unsecure",
+						"insecure",
+						"decrypt",
+						"unlocked",
+						"unlocking",
+						"unsafe",
+						"reveal",
+						"open lock",
+						"allow opening",
+						"allow open"
+					]
+				}
+			]
+		}
+	],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+		]
+	}
+}
