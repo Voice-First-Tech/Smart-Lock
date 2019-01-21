@@ -14,9 +14,12 @@ for (const p of [new Alexa(), new GoogleAssistant()]) {
             const launchRequest = await testSuite.requestBuilder.launch();
             const responseLaunchRequest = await conversation.send(launchRequest);
             expect(
-                responseLaunchRequest.isAsk('Hello World! What\'s your name?', 'Please tell me your name.')
+                responseLaunchRequest.isAsk(expectedLaunchPrompt, expectedLaunchReprompt)
             ).toBe(true);
 
         });
     });
 }
+
+let expectedLaunchPrompt = 'Welcome to your smart lock. Would you like to lock your door? Check the status of your door? Or unlock your door?'
+let expectedLaunchReprompt = 'Please say lock, status of my door, Or unlock to control your door.'
