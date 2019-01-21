@@ -8,7 +8,7 @@ for (const p of [new Alexa(), new GoogleAssistant()]) {
     const testSuite = p.makeTestSuite();
 
     describe(`PLATFORM: ${p.constructor.name} INTENTS` , () => {
-        test('should return a welcome message and ask for the name at "LAUNCH"', async () => {
+        test('should return a welcome message and ask for door instruction at "LAUNCH"', async () => {
             const conversation = testSuite.conversation();
 
             const launchRequest = await testSuite.requestBuilder.launch();
