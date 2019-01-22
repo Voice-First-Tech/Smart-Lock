@@ -10,24 +10,68 @@
 			]
 		},
 		{
-			"name": "MyNameIsIntent",
+			"name": "LockIntent",
 			"phrases": [
-				"{name}",
-				"my name is {name}",
-				"i am {name}",
-				"you can call me {name}"
+				"make the door {lockStatus}",
+				"please {lockStatus} the door",
+				"{lockStatus}",
+				"{lockStatus} the door",
+				"{lockStatus} my door",
+				"{lockStatus} this door",
+				"{lockStatus} it",
+				"can you {lockStatus} the door",
+				"can you {lockStatus} it",
+				"{lockStatus} the lock",
+				"please {lockStatus} the lock",
+				"{lockStatus} it up"
 			],
 			"inputs": [
 				{
-					"name": "name",
-					"type": {
-						"alexa": "AMAZON.US_FIRST_NAME",
-						"dialogflow": "@sys.given-name"
-					}
+					"name": "lockStatus",
+					"type": "lockStatusType"
 				}
 			]
 		}
 	],
+	"inputTypes": [
+    {
+        "name": "lockStatusType",
+        "values": [
+            {
+                "value": "lock",
+								"synonyms": [
+									"lock it",
+									"secure",
+									"encrypt",
+									"locked",
+									"locking",
+									"safe",
+									"close",
+									"hide",
+									"close lock",
+									"prevent opening"
+								]
+            },
+            {
+                "value": "unlock",
+                "synonyms": [
+                    "unlock it",
+										"unsecure",
+										"insecure",
+										"decrypt",
+										"unlocked",
+										"unlocking",
+										"unsafe",
+										"open",
+										"reveal",
+										"open lock",
+										"allow opening",
+										"allow open"
+                ]
+            }
+        ]
+    }
+],
 	"alexa": {
 		"interactionModel": {
 			"languageModel": {
