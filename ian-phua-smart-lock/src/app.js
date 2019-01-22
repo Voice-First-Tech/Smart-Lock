@@ -31,8 +31,16 @@ app.setHandler({
         return this.ask(this.$speech, this.$reprompt);
     },
 
-    MyNameIsIntent() {
-        this.tell('Hey ' + this.$inputs.name.value + ', nice to meet you!');
+    LockIntent() {
+      let expectedLockPrompt = 'Your door is locked'
+      let expectedUnlockPrompt = 'Your door is unlocked'
+      let lockStatus = this.$inputs.lockStatus.value
+      if (lockStatus === "lock") {
+        this.$speech.addText(expectedLockPrompt)
+      } else {
+        this.$speech.addText(expectedUnlockPrompt)
+      }
+        this.tell(this.$speech);
     },
 });
 
