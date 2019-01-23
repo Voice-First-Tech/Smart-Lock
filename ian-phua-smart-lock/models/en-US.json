@@ -1,0 +1,115 @@
+{
+	"invocation": "smart lock",
+	"intents": [
+		{
+			"name": "HelloWorldIntent",
+			"phrases": [
+				"hello",
+				"say hello",
+				"say hello world"
+			]
+		},
+		{
+			"name": "LockIntent",
+			"phrases": [
+				"make the door {lockStatus}",
+				"please {lockStatus} the door",
+				"{lockStatus}",
+				"{lockStatus} the door",
+				"{lockStatus} my door",
+				"{lockStatus} this door",
+				"{lockStatus} it",
+				"can you {lockStatus} the door",
+				"can you {lockStatus} it",
+				"{lockStatus} the lock",
+				"please {lockStatus} the lock",
+				"{lockStatus} it up"
+			],
+			"inputs": [
+				{
+					"name": "lockStatus",
+					"type": "lockStatusType"
+				}
+			]
+		}
+	],
+	"inputTypes": [
+    {
+        "name": "lockStatusType",
+        "values": [
+            {
+                "value": "lock",
+								"synonyms": [
+									"lock it",
+									"secure",
+									"encrypt",
+									"locked",
+									"locking",
+									"safe",
+									"close",
+									"hide",
+									"close lock",
+									"prevent opening"
+								]
+            },
+            {
+                "value": "unlock",
+                "synonyms": [
+                    "unlock it",
+										"unsecure",
+										"insecure",
+										"decrypt",
+										"unlocked",
+										"unlocking",
+										"unsafe",
+										"open",
+										"reveal",
+										"open lock",
+										"allow opening",
+										"allow open"
+                ]
+            }
+        ]
+    }
+],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+		]
+	}
+}
