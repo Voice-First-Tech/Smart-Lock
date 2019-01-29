@@ -1,5 +1,5 @@
 {
-	"invocation": "my test app",
+	"invocation": "smart lock",
 	"intents": [
 		{
 			"name": "HelloWorldIntent",
@@ -10,16 +10,20 @@
 			]
 		},
 		{
-			"name": "MyNameIsIntent",
+			"name": "LockIntent",
 			"phrases": [
-				"{name}",
-				"my name is {name}",
-				"i am {name}",
-				"you can call me {name}"
+				"{lockStatus}",
+				"make the door {lockStatus}",
+				"please {lockStatus} the door",
+				"{lockStatus} the door",
+				"{lockStatus} my door",
+				"{lockStatus} the lock",
+				"please {lockStatus} the lock",
+				"can you {lockStatus} the door"
 			],
 			"inputs": [
 				{
-					"name": "name",
+					"name": "lockStatus",
 					"type": {
 						"alexa": "AMAZON.US_FIRST_NAME",
 						"dialogflow": "@sys.given-name"
