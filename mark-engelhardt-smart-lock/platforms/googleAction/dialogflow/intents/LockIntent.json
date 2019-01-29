@@ -1,5 +1,5 @@
 {
-	"name": "MyNameIsIntent",
+	"name": "LockIntent",
 	"auto": true,
 	"webhookUsed": true,
 	"responses": [
@@ -7,9 +7,9 @@
 			"parameters": [
 				{
 					"isList": false,
-					"name": "name",
-					"value": "$name",
-					"dataType": "@sys.given-name"
+					"name": "lockStatus",
+					"value": "$lockStatus",
+					"dataType": "@lockStatusType"
 				}
 			]
 		}

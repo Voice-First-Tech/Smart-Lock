@@ -1,8 +1,48 @@
 {
 	"interactionModel": {
 		"languageModel": {
-			"invocationName": "my test app",
-			"types": [],
+			"invocationName": "smart lock",
+			"types": [
+				{
+					"name": "lockStatusType",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "lock",
+								"synonyms": [
+									"lock it",
+									"secure",
+									"encrypt",
+									"locked",
+									"locking",
+									"close",
+									"safe",
+									"close lock",
+									"prevent opening"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "unlock",
+								"synonyms": [
+									"unlock it",
+									"unsecure",
+									"insecure",
+									"decrypt",
+									"unlocked",
+									"unlocking",
+									"unsafe",
+									"open lock",
+									"open"
+								]
+							}
+						}
+					]
+				}
+			],
 			"intents": [
 				{
 					"name": "HelloWorldIntent",
@@ -13,17 +53,21 @@
 					]
 				},
 				{
-					"name": "MyNameIsIntent",
+					"name": "LockIntent",
 					"samples": [
-						"{name}",
-						"my name is {name}",
-						"i am {name}",
-						"you can call me {name}"
+						"{lockStatus}",
+						"make the door {lockStatus}",
+						"please {lockStatus} the door",
+						"{lockStatus} the door",
+						"{lockStatus} my door",
+						"{lockStatus} the lock",
+						"please {lockStatus} the lock",
+						"can you {lockStatus} the door"
 					],
 					"slots": [
 						{
-							"name": "name",
-							"type": "AMAZON.US_FIRST_NAME"
+							"name": "lockStatus",
+							"type": "lockStatusType"
 						}
 					]
 				},
