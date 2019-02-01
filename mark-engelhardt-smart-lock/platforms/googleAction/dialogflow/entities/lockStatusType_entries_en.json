@@ -1,0 +1,32 @@
+[
+	{
+		"value": "lock",
+		"synonyms": [
+			"lock",
+			"lock it",
+			"secure",
+			"encrypt",
+			"locked",
+			"locking",
+			"close",
+			"safe",
+			"close lock",
+			"prevent opening"
+		]
+	},
+	{
+		"value": "unlock",
+		"synonyms": [
+			"unlock",
+			"unlock it",
+			"unsecure",
+			"insecure",
+			"decrypt",
+			"unlocked",
+			"unlocking",
+			"unsafe",
+			"open lock",
+			"open"
+		]
+	}
+]

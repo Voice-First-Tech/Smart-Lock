@@ -1,0 +1,89 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "smart lock",
+			"types": [
+				{
+					"name": "lockStatusType",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "lock",
+								"synonyms": [
+									"lock it",
+									"secure",
+									"encrypt",
+									"locked",
+									"locking",
+									"close",
+									"safe",
+									"close lock",
+									"prevent opening"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "unlock",
+								"synonyms": [
+									"unlock it",
+									"unsecure",
+									"insecure",
+									"decrypt",
+									"unlocked",
+									"unlocking",
+									"unsafe",
+									"open lock",
+									"open"
+								]
+							}
+						}
+					]
+				}
+			],
+			"intents": [
+				{
+					"name": "HelloWorldIntent",
+					"samples": [
+						"hello",
+						"say hello",
+						"say hello world"
+					]
+				},
+				{
+					"name": "LockIntent",
+					"samples": [
+						"{lockStatus}",
+						"make the door {lockStatus}",
+						"please {lockStatus} the door",
+						"{lockStatus} the door",
+						"{lockStatus} my door",
+						"{lockStatus} the lock",
+						"please {lockStatus} the lock",
+						"can you {lockStatus} the door"
+					],
+					"slots": [
+						{
+							"name": "lockStatus",
+							"type": "lockStatusType"
+						}
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}
