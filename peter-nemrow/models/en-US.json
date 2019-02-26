@@ -10,16 +10,24 @@
 			]
 		},
 		{
-			"name": "MyNameIsIntent",
+			"name": "LockIntent",
 			"phrases": [
-				"{name}",
-				"my name is {name}",
-				"i am {name}",
-				"you can call me {name}"
+				"{lockStatus}",
+				"{lockStatus} the door",
+				"make the door {lockStatus}",
+				"please {lockStatus} the door",
+				"{lockStatus} this door",
+				"{lockStatus} it",
+				"can you {lockStatus} the door",
+				"can you {lockStatus} it",
+				"{lockStatus} the lock",
+				"please {lockStatus} the lock",
+				"{lockStatus} it up"
+
 			],
 			"inputs": [
 				{
-					"name": "name",
+					"name": "lockStatus",
 					"type": {
 						"alexa": "AMAZON.US_FIRST_NAME",
 						"dialogflow": "@sys.given-name"
