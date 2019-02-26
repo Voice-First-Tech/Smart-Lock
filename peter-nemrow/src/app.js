@@ -28,11 +28,7 @@ app.setHandler({
     LAUNCH() {
         let expectedLaunchPrompt = 'Welcome to your smart lock, Would you like to lock your door? Check the status of your door? Or unlock your door?';
         let expectedLaunchReprompt = 'Please say lock door, status of my door, or unlock to control your door.';
-        return this.toIntent(expectedLaunchPrompt, expectedLaunchReprompt);
-    },
-
-    HelloWorldIntent() {
-        this.ask('Hello World! What\'s your name?', 'Please tell me your name.');
+        return this.ask(expectedLaunchPrompt, expectedLaunchReprompt);
     },
 
     MyNameIsIntent() {
