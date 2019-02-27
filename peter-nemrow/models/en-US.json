@@ -28,13 +28,49 @@
 			"inputs": [
 				{
 					"name": "lockStatus",
-					"type": {
-						"alexa": "AMAZON.US_FIRST_NAME",
-						"dialogflow": "@sys.given-name"
-					}
+					"type": "lockStatusType"
 				}
 			]
 		}
+	],
+	"inputTypes": [
+	    {
+	        "name": "lockStatusType",
+	        "values": [
+	            {
+	                "value": "lock",
+									"synonyms": [
+										"lock it",
+										"secure",
+										"ecrypt",
+										"locked",
+										"locking",
+										"safe",
+										"close",
+										"hide",
+										"close lock",
+										"prevent opening"
+									]
+	            },
+	            {
+	                "value": "unlock",
+									"synonyms": [
+										"unlock it",
+										"unsecure",
+										"insecure",
+										"decrypt",
+										"unlocked",
+										"unlocking",
+										"unsafe",
+										"open",
+										"reveal",
+										"open lock",
+										"allow opening",
+										"allow open"
+									]
+	            }
+	        ]
+	    }
 	],
 	"alexa": {
 		"interactionModel": {
