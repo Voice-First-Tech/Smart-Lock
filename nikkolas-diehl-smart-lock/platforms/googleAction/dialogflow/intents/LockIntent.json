@@ -1,0 +1,17 @@
+{
+	"name": "LockIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "lockStatus",
+					"value": "$lockStatus",
+					"dataType": "@lockStatusType"
+				}
+			]
+		}
+	]
+}

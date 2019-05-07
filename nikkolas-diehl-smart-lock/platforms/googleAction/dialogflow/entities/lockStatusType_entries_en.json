@@ -1,0 +1,40 @@
+[
+	{
+		"value": "lock",
+		"synonyms": [
+			"lock",
+			"shut",
+			"close",
+			"restrict",
+			"block",
+			"shutter",
+			"exude",
+			"lock it",
+			"secure",
+			"encrypt",
+			"hide",
+			"close lock",
+			"prevent opening"
+		]
+	},
+	{
+		"value": "unlock",
+		"synonyms": [
+			"unlock",
+			"open",
+			"unrestrict",
+			"unblock",
+			"let in",
+			"un-twist",
+			"unlock it",
+			"unsecure",
+			"decrypt",
+			"unlocked",
+			"unlocking",
+			"unsafe",
+			"reveal",
+			"open lock",
+			"allow opening"
+		]
+	}
+]
