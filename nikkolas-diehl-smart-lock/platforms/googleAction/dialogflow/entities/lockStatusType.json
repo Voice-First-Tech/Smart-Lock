@@ -1,5 +1,5 @@
 {
-	"name": "lockStatus",
+	"name": "lockStatusType",
 	"isOverridable": true,
 	"isEnum": false,
 	"automatedExpansion": true

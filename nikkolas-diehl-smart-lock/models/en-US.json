@@ -28,14 +28,14 @@
 			"inputs": [
 				{
 					"name": "lockStatus",
-					"type": "lockStatus"
+					"type": "lockStatusType"
 				}
 			]
 		}
 	],
 	"inputTypes": [
 		{
-			"name": "lockStatus",
+			"name": "lockStatusType",
 			"dialogflow": {
 				"automatedExpansion": true
 			},
@@ -48,7 +48,13 @@
 						"restrict",
 						"block",
 						"shutter",
-						"exude"
+						"exude",
+						"lock it",
+						"secure",
+						"encrypt",
+						"hide",
+						"close lock",
+						"prevent opening"
 					]
 				},
 				{
@@ -58,7 +64,16 @@
 						"unrestrict",
 						"unblock",
 						"let in",
-						"un-twist"
+						"un-twist",
+						"unlock it",
+						"unsecure",
+						"decrypt",
+						"unlocked",
+						"unlocking",
+						"unsafe",
+						"reveal",
+						"open lock",
+						"allow opening"
 					]
 				}
 			]

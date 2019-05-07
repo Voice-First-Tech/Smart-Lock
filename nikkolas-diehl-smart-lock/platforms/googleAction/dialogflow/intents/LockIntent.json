@@ -9,7 +9,7 @@
 					"isList": false,
 					"name": "lockStatus",
 					"value": "$lockStatus",
-					"dataType": "@lockStatus"
+					"dataType": "@lockStatusType"
 				}
 			]
 		}

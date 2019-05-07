@@ -4,7 +4,7 @@
 			"invocationName": "smart lock",
 			"types": [
 				{
-					"name": "lockStatus",
+					"name": "lockStatusType",
 					"values": [
 						{
 							"id": null,
@@ -16,7 +16,13 @@
 									"restrict",
 									"block",
 									"shutter",
-									"exude"
+									"exude",
+									"lock it",
+									"secure",
+									"encrypt",
+									"hide",
+									"close lock",
+									"prevent opening"
 								]
 							}
 						},
@@ -29,7 +35,16 @@
 									"unrestrict",
 									"unblock",
 									"let in",
-									"un-twist"
+									"un-twist",
+									"unlock it",
+									"unsecure",
+									"decrypt",
+									"unlocked",
+									"unlocking",
+									"unsafe",
+									"reveal",
+									"open lock",
+									"allow opening"
 								]
 							}
 						}
@@ -64,7 +79,7 @@
 					"slots": [
 						{
 							"name": "lockStatus",
-							"type": "lockStatus"
+							"type": "lockStatusType"
 						}
 					]
 				},
